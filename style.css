@@ -48,7 +48,7 @@ header {
 
 nav ul.nav-links {
   list-style: none;
-  display:list-item;
+  display:-ms-flexbox;
   gap:start;
   padding: 20px 10px;
   flex-wrap: flex wrap;
