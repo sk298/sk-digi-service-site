@@ -54,7 +54,7 @@ serviceButtons.forEach(button => {
 
     // Build sub-services list HTML
     const subs = servicesData[key];
-    let html = `<h2>${button.textContent} Sub-Services</h2>`;
+    let html = `<h2>${button.textContent} </h2>`;
     if (subs && subs.length > 0) {
       html += '<ul>';
       subs.forEach(item => {
