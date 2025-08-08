@@ -3,19 +3,16 @@
 ///expend of sub services tab///
 const servicesData = {
   website: [
-    "Website",
+    "Websites Develop",
     "Private Sites",
     "Business Sites"
   ],
   graphic: [
     "Graphic Designs",
     "Social Media Posts",
-    "Business Card Designs",
     "Promotion Banners",
     "Advertise Designs",
-    "Visiting Card Designs",
     "Cover Page Designs",
-    "Type Settings",
     "Logo Designs",
     "Brochure Designs",
     "Brand Designs",
