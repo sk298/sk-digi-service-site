@@ -51,7 +51,7 @@ nav ul.nav-links {
   display: flex;
   gap: 25px;
   padding: 1em;
-  flex-wrap: wrap;
+  flex-wrap: flex wrap;
 }
 
 nav ul.nav-links li a {
@@ -70,33 +70,6 @@ nav ul.nav-links li a:hover {
 .active{
     color:#0015ff;
 }
-
-
-/* Responsive styles for mobile */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-  }
-
-  .navbar li a {
-    font-size: 16px;
-  }
-
-  .navbar .logo {
-    font-size: 20px;
-  }
-}
-
-
-
 
 /* Hero Section */
 .hero {
