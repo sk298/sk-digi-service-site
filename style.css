@@ -50,7 +50,7 @@ nav ul.nav-links {
   list-style: none;
   display: flex;
   gap: 25px;
-  padding: 1em;
+  padding: 5em;
   flex-wrap: flex wrap;
 }
 
