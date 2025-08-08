@@ -49,8 +49,8 @@ header {
 nav ul.nav-links {
   list-style: none;
   display: flex;
-  gap: 5px;
-  padding:start;
+  gap: flex;
+  padding: 5em;
   flex-wrap: flex wrap;
 }
 
