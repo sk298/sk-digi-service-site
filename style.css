@@ -24,6 +24,7 @@ header {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100%;
+  height: 140px;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -43,7 +44,7 @@ header {
 
 .logo {
   align-content:start;
-  height:90px;
+  height:60px;
   cursor: pointer;
   filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.7));
 }
@@ -59,12 +60,12 @@ nav ul.nav-links {
 nav ul.nav-links li a {
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: flex;
   font-size: 1rem;
   padding: 10px 10px;
   transition: color 0.3s ease;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -189,7 +190,7 @@ footer {
 }
 
 .services-page {
-  padding: 100px 20px 60px;
+  padding: 190px 20px 60px;
   color: #fff;
 }
 
@@ -251,7 +252,7 @@ footer {
 }
 
 .gallery-page {
-  padding: 100px 20px 60px;
+  padding: 190px 20px 60px;
   color: #fff;
   text-align: center;
 }
@@ -333,7 +334,7 @@ footer {
 
 /* careers */
 .career-page {
-  padding: 60px 20px;
+  padding: 190px 60px 20px;
   background-color: #033c79;
 }
 
@@ -385,7 +386,7 @@ footer {
 
 
 .about {
-  padding: 60px 20px;
+  padding: 190px 60px 20px;
   background-color: #033c79;
 }
 
@@ -411,7 +412,7 @@ footer {
 }
 
 .contact-section {
-  padding: 60px 20px;
+  padding: 190px 60px 20px;
   text-align: center;
   background-color: #033c79;
 }
