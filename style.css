@@ -62,29 +62,12 @@ nav ul.nav-links li a {
   text-decoration: none;
   font-weight: flex;
   font-size: 1rem;
-  padding: 10px 10px;
+  padding: 10px 3px;
   transition: color 0.3s ease;
   width: 100%;
   height: flex;
   justify-content: flex-start;
   gap: flex;
-
-  nav ul {
-  flex-wrap: wrap; /* Allow items to wrap to new line if needed */
-  justify-content: center; /* Center the items */
-}
-
-nav ul li {
-  font-size: 14px; /* Make the text smaller on mobile */
-}
-
-@media (max-width: 768px) {
-  nav ul li {
-    font-size: 12px; /* Even smaller for smaller screens */
-    padding: 5px;    /* Reduce spacing */
-  }
-}
-
 }
 
 
